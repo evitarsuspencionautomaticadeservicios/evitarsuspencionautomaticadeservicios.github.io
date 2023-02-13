@@ -1,0 +1,221 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+ }
+ #bady {
+    height: 100%;
+    width: 100%;
+    background: url('../Inicio_files/00.jpg');
+    background-size: 100% 116%;
+    background-repeat: no-repeat;
+    background-position: 0px -50px;
+ 
+ }
+ .chamber {
+    /*	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    position: absolute; /*it can be fixed too*/
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FFF;
+    width: 320px;
+    /*this to solve "the content will not be cut when the window is smaller than the content": */
+    max-width: 380px;
+    max-height: 360px;
+    padding-left: 40px;
+    padding-top: 40px;
+    border: 1px solid #CCC;
+    font-family: "Segoe UI Webfont", -apple-system, 'Helvetica Neue', 'Lucida Grande', Roboto, Ebrima, 'Nirmala UI', Gadugi, 'Segoe Xbox Symbol';
+    padding-right: 50px;
+    margin: auto;
+    padding-bottom: 10px;
+    height: 340px;
+    }
+ 
+ .logo {
+    float: left;
+ }
+ h2 {
+    float: left;
+    clear: left;
+    margin: 16px -2px; padding: 0px; font-weight: 300;
+ 
+ }
+ h4 {
+    float: left;
+    clear: left;
+    margin: 16px -2px;
+    padding: 0px;
+    font-weight: normal;
+    font-size: 13px;
+ }
+ .efigbo {
+    clear: left;
+    margin-left:-1px;
+    font-size: 15px;
+ }
+ #efired {
+    margin-left: -1px;
+    font-size: 15px;
+    color: #E81123;
+    margin-bottom: -5px;
+    width: 350px;
+    float: left;
+    margin-top: -4px;
+ }
+ #efire {
+    margin-left: -1px;
+    font-size: 15px;
+    color: #E81123;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    width: 350px;
+    float: left;
+ }
+ input {
+    height: 32px;
+    clear: left;
+    margin-top: 15px;
+    margin-left: -1px;
+    border: 1px solid #333;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 12px;
+    font-family: "Segoe UI Webfont", -apple-system, 'Helvetica Neue', 'Lucida Grande', Roboto, Ebrima, 'Nirmala UI', Gadugi, 'Segoe Xbox Symbol';
+    margin-bottom: 15px;
+    }
+ input:focus {
+     outline: none;
+    border: 1px solid #06C;
+ }
+ .btn-primary{
+    border: 1px solid rgb(0, 103, 184);
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    background-color: #0067B8;
+    height: 36px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    margin-left: -1px;
+    width: 334px;
+    clear: left;
+    }
+ .pp-primary{
+    border: 1px solid rgb(0, 103, 184);
+    color: rgb(255, 255, 255);
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    width: 49%;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    background-color: rgb(0, 103, 184);
+    height: 36px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    margin-right: -50px;
+    cursor: pointer;
+    clear: left;
+    }
+ .oo-primary{
+    border: 1px solid #D6D6D6;
+    color: #000000;
+    font-style: inherit;
+    font-variant: inherit;
+    font-weight: inherit;
+    font-stretch: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    width: 49%;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    background-color: #D6D6D6;
+    height: 36px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-right: 12px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    margin-right: 1%;
+    clear: left;
+    }
+    
+ .footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 24px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: right;
+    color: #FFFFFF;
+    font-family: "Segoe UI Webfont", -apple-system, 'Helvetica Neue', 'Lucida Grande', Roboto, Ebrima, 'Nirmala UI', Gadugi, 'Segoe Xbox Symbol';
+    font-size: 12.5px;
+    padding-top: 6px;
+    }
+ .footer a{
+    color: #FFFFFF;
+ }
+ /* IE 6 */
+ * html .footer {
+    position: absolute;
+    top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+ }
+ 
+ .ugogbe {
+    margin-left: -40px;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    line-height: 28px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: right;
+    width: 310px;
+    padding-right: 100px;
+    margin-top: 15px;
+    float: left;
+    clear: both;
+ }
+ 
+ .eholder {
+    height: 45px;
+    width: 45px;
+    margin-top: -46px;
+    float:right;
+    }
